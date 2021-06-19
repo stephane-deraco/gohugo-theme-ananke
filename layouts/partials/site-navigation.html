@@ -11,6 +11,12 @@
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         <ul class="pl0 mr3">
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href={{ "tags" | relLangURL }} title={{ i18n "tags" }}>
+              {{ i18n "tags" }}
+            </a>
+
+          </li>
           {{ range .Site.Menus.main }}
           <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
