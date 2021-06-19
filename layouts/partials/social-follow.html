@@ -73,7 +73,7 @@
 </a>
 {{ end }}
 {{ with .Param "rss" }}
-<a href="{{ . }}" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
+<a href={{ "index.xml" | absLangURL }} target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
   {{ partial "svg/rss.svg" (dict "size" $icon_size) }}
   {{- partial "new-window-icon.html" . -}}
 </a>
