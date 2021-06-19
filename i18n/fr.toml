@@ -48,3 +48,6 @@ other = "Crédits"
 
 [terms]
 other = "Mentions légales"
+
+[contentLicense]
+other = "Contenu sous licence : "
