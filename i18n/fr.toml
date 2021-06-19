@@ -36,3 +36,9 @@ other = "Below you will find pages that utilize the taxonomy term “{{ .Title }
 
 [tags]
 other = "Tags"
+
+[minutesRead]
+other = "minutes de lecture"
+
+[words]
+other = "mots"

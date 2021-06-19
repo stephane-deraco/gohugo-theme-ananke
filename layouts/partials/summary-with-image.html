@@ -12,6 +12,11 @@
         </div>
       {{ end }}
       <div class="blah w-100{{ if $featured_image }} w-60-ns pl3-ns{{ end }}">
+
+        <time class="f7 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
+          {{- .Date.Format "2006-01-02" -}}
+        </time>
+
         <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="{{.Permalink}}" class="color-inherit dim link">
             {{ .Title }}
