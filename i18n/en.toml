@@ -51,3 +51,6 @@ other = "Terms"
 
 [contentLicense]
 other = "Content license:"
+
+[toc]
+other = "Table of content"

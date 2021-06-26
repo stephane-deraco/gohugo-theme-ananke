@@ -51,3 +51,6 @@ other = "Mentions légales"
 
 [contentLicense]
 other = "Contenu sous licence : "
+
+[toc]
+other = "Table des matières"
